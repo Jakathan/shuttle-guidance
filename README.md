@@ -27,6 +27,8 @@ Performs entry guidance all the way until the shuttle is at 900 m/s. This functi
 
 All other functions found in this file are used by the previous two functions.
 
+The spline interpolation function is definitely not quite right (I think it pulls from the spline ahead of where it should) but it works well enough (tm) for now.
+
 ## Example Usage
 
 ```
