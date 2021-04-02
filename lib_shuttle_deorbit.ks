@@ -305,7 +305,7 @@ function entry_Guidance {
     until ship:velocity:surface:mag < 900 { //Entry Guidance
         wait 0.
         set tnew to time:seconds.
-        set dt to tnew - tlast.
+        //set dt to tnew - tlast.
         //set hnew to ship:altitude.
         //set hdotnew to (hnew - hlast)/dt.
         //set hdotdot to (hdotnew - hdotold)/dt.
